@@ -2,7 +2,7 @@
 
 :root {
   --color-primary: #006241;
-  --color-secondary: #d50032;
+  --color-secondary: #ffffff;
   --color-extra: #d4e9e2;
 }
 
@@ -16,7 +16,8 @@ html,
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
-  color: #000;
+  color: rgb(0, 0, 0);
+  
 }
 
 a {
@@ -44,7 +45,7 @@ section a {
 .navbar {
   width: 100%;
   height: auto;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   padding: 20px;
   box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
     0 0 2px rgb(0 0 0 / 7%);
@@ -250,11 +251,13 @@ section a {
 .text-md {
   font-size: 24px;
   margin-bottom: 20px;
+  color: #000;
 }
 
 .text-sm {
   font-size: 19px;
   margin-bottom: 20px;
+  color: #000;
 }
 
 /* Padding */
