@@ -16,7 +16,7 @@ html,
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.4;
-  color: rgb(29, 12, 12);
+  color: rgb(251, 251, 251);
   background-image: url(img/kebun-kopi.jpg);
   background-size: cover;
   background-color: rgba(31, 65, 6, 0.701);
@@ -498,6 +498,7 @@ section a {
   .footer {
     text-align: center;
   }
+  
 }
 
 @media (min-width: 1440px) {
